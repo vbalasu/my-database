@@ -1,0 +1,6 @@
+.chalice/deployments/
+.chalice/venv/
+**__pycache__/
+chalicelib/mysecrets.py
+venv/
+.chalice/deployed/
