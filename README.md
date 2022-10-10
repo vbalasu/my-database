@@ -4,8 +4,8 @@ Provides a REST API to interact with the Postgres instance running on premises o
 
 It has the following features:
 
-/db/{database}/query/{query}
-# Example: "/db/publicdb/query/SELECT * FROM countries;"
+/query?db={database}&query={query}
+Example: "/query?db=publicdb&query=SELECT%20*%20FROM%20countries;"
 
 Returns a JSON response containing an array of records
 
